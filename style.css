@@ -1,12 +1,16 @@
 body {
-    font-family: "Open Sans, sans-serif";
+    font-family: "Open Sans", sans-serif;
 }
 h1 {
-    background-color: black;
-    color: blueviolet;
+    background-color: rgb(197, 195, 195);
+    color: rgb(10, 10, 10);
     text-align: center;
-    pad: 20px
+    pad: 20px;
+    letter-spacing: 10px;
     ;
+}
+h2 {
+    text-align: center;
 }
 footer {
     text-align: center;
