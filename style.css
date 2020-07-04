@@ -33,10 +33,72 @@ main {
 
 .books {
     margin: auto;
-    width: 80%
+    width: 80%;
+    
+    
   }
 .books h1, 
 .books h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+.books img {
+    width: 24.5%;
+    height: 300px;
+}
+
+.books img:hover {
+    opacity: 40%;
+}
+
+
+.tvshows {
+    margin: auto;
+    width: 80%
+    
+    
+  }
+.tvshows h1, 
+.tvshows h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+}
+
+.tvshows img {
+    width: 24.5%;
+    height: 300px;
+}
+
+.tvshows img:hover {
+    opacity: 40%;
+}
+
+.interests {
+    margin: auto;
+    width: 80%  
+  }
+
+  .interests img {
+    width: 24.5%;
+    height: 300px;
+}
+
+.interests img:hover {
+    opacity: 40%;
+}
+
+.interests h1, 
+.interests h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -45,7 +107,7 @@ main {
     
 footer {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
     color: white;   
     font-size: 8px;
     letter-spacing: 4px;
