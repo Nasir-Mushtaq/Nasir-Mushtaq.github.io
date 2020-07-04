@@ -1,26 +1,30 @@
 .hero {
     width: 100vw;
-    height: 400px;
+    height: 500px;
     background-image: url(./hero.png);
     background-size: cover;
     display: flex;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
-.hero nav {
-    align-self: flex-end;
+.hero nav {  
+    text-align: center;
+    margin-top: 80px;
 }
 
 nav a {
     text-decoration: none;
     color: rgb(253, 253, 253);
-    margin-top: 100px;
-    margin-right: 50px;
+    margin-right: 20px;
     padding: 3px;
+    font-size: 20px;
+    letter-spacing: 3px;
 }
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Prompt', sans-serif;
     margin: 0;
+    background-color: rgb(0, 0, 0);
 }
 
 main {
@@ -34,7 +38,7 @@ main {
     
 }
 .hero h1 {
-    margin-top: 40px;
+    margin-top: 100px;
     margin-bottom: 10px;
     font-size: 40px;
 }
@@ -44,6 +48,7 @@ main {
 }
 
 .books {
+    
     margin: auto;
     width: 80%
     
@@ -51,8 +56,12 @@ main {
 .books h1, 
 .books h2 {
     text-align: center;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 5px;
+    
     }
-ul {
+
     
     
 }
