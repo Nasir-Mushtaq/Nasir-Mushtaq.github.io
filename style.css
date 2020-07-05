@@ -21,6 +21,10 @@ nav a {
     font-size: 20px;
     letter-spacing: 3px;
 }
+
+nav a:hover {
+    color: salmon;
+}
 body {
     font-family: 'Prompt', sans-serif;
     margin: 0;
