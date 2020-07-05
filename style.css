@@ -31,14 +31,14 @@ main {
     margin: auto;
 }
 
-.books {
+.favourite {
     margin: auto;
     width: 80%;
     
     
   }
-.books h1, 
-.books h2 {
+.favourite h1, 
+.favourite h2 {
     margin-top: 50px;
     margin-bottom: 50px;
     text-align: center;
@@ -46,65 +46,15 @@ main {
     font-size: 20px;
     letter-spacing: 5px;
 }
-.books img {
+.favourite img {
     width: 24.5%;
     height: 300px;
 }
 
-.books img:hover {
+.favourite img:hover {
     opacity: 40%;
 }
-
-
-.tvshows {
-    margin: auto;
-    width: 80%
-    
-    
-  }
-.tvshows h1, 
-.tvshows h2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 5px;
-}
-
-.tvshows img {
-    width: 24.5%;
-    height: 300px;
-}
-
-.tvshows img:hover {
-    opacity: 40%;
-}
-
-.interests {
-    margin: auto;
-    width: 80%  
-  }
-
-  .interests img {
-    width: 24.5%;
-    height: 300px;
-}
-
-.interests img:hover {
-    opacity: 40%;
-}
-
-.interests h1, 
-.interests h2 {
-    margin-top: 50px;
-    margin-bottom: 50px;
-    text-align: center;
-    color: white;
-    font-size: 20px;
-    letter-spacing: 5px;
-}
-    
+   
 footer {
     text-align: center;
     margin-top: 100px;
