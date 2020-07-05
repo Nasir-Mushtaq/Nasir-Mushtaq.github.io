@@ -49,10 +49,12 @@ main {
 .favourite img {
     width: 24.5%;
     height: 300px;
+    filter: grayscale(100%);
 }
 
 .favourite img:hover {
-    opacity: 40%;
+    
+    filter: grayscale(0);
 }
    
 footer {
